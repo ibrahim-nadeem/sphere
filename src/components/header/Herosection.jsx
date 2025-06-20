@@ -7,7 +7,7 @@ const HeroSection = () => {
     <div className="relative min-h-screen flex items-center justify-start p-4 overflow-hidden">
        
       <img
-        src="sphere/images/Pasted image.png"
+        src="./images/Pasted image.png"
         alt="GigaSphere Solutions"
         className="absolute inset-0 w-full h-full object-cover object-top z-10 border-2"
       />
