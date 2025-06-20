@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig(({ command }) => {
   const isProd = command === 'build';
   return {
-    base: isProd ? '/gss/' : '/',
+    base: isProd ? '/sphere/' : '/',
     plugins: [react()],
   };
 });
